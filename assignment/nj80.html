@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="icon" href="images/logo2.png">
+    <title>NJ80 BAREBONES KIT</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body onload="checkBadge()">
+    <header class="topnav">
+      <div class="logo">
+        <a href="homepage.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+        <nav>
+          <ul class="left">
+            <li><a href="keyboard.html">Keyboards</a></li>
+            <li><a href="switches.html">Switches</a></li>
+            <li><a href="keycaps.html">Keycaps</a></li>
+          </ul>
+          <ul class='right'>
+            <li><a href="cart.html" id="cart">Cart</a><span class='badge'></span> </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+      <div class="productgallery">
+        <div class="bigProduct nj80">
+          <img id='mainProduct' src="images/nj80.png" alt="nj80" >
+        </div>
+        <ul class='multipleProducts'>
+          <li> <img src="images/nj80.png" alt="nj80" onclick="showProduct(this)"> </li>
+          <li><img src="images/nj802.png" alt="nj802" onclick="showProduct(this)"> </li>
+          <li> <img src="images/nj803.png" alt="nj803" onclick="showProduct(this)"> </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h4>KEYDOUS NJ80 BAREBONES BLUETOOTH RGB HOT-SWAPPABLE KEYBOARD</h4>
+        <p id='price'>$100</p>
+        <p id='features'>Features</p>
+        <ul>
+          <li>75%</li>
+          <li>Hotswap</li>
+          <li>RGB</li>
+          <li>Knob Control</li>
+          <li>Wireless</li>
+        </ul>
+        <button id='button' type="button" name="button" onclick="addCart()">Add to cart</button>
+      </div>
+      </div>
+      <br>
+      <div class="description2">
+        <h3>About</h3>
+        <p>This 75% keyboard features 80 keys for just the right amount of control, a scroll wheel in the top right for assigning further parameters to your setup, and a PCB with hot-swappable switch sockets. This particular setup does not come with switches or keycaps, but thanks to the wide compatibility, it will work with many of the components you may have already.</p>
+      </div>
+      <div class="considered">
+        <p>Others also considered</p>
+        <a href="keyboard.html">Browse all keyboards &#8594;</a>
+        <div class="consider">
+        <ul class='card'>
+          <ul>
+            <li><a href="tofu60acrylic.html"><img src="images/tofu60acrylic.png" alt="tofu60acrylic"> </a> </li>
+            <li>TOFU60 ACRYLIC</li>
+          </ul>
+          <ul>
+            <li><a href="womiertkl.html"><img src="images/womiertklacrylic.png" alt="womiertkl"> </a> </li>
+            <li>WOMIER TKL ACRYLIC</li>
+          </ul>
+          <ul>
+            <li><a href="tofu60diy.html"><img src="images/tofu60diykit.png" alt=""> </a> </li>
+            <li>TOFU60 DIY KIT</li>
+          </ul>
+        </ul>
+      </div>
+      </div>
+      <footer>
+      <div class="footer">
+        <div class="socials">
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebooklogo.png" alt="facebook"> </a> </li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagramlogo.png" alt="instagram"> </a> </li>
+            <li><a href="https://www.twitter.com/" target="_blank"><img src="images/twitterlogo.png" alt="twitter"> </a> </li>
+          </ul>
+        </div>
+        <div class="summary">
+          <ul>
+            <li><a href="keyboard.html">Keyboards</a> </li>
+            <li><a href="switches.html">Switches</a> </li>
+            <li><a href="keycaps.html">Keycaps</a> </li>
+          </ul>
+          <ul>
+            <li><a href="https://www.termsfeed.com/live/59ad481b-1194-435b-a391-e6f91ed8f6ed" target="_blank">Terms of use</a></li>
+            <li><a href="https://www.freeprivacypolicy.com/live/8e5b8faf-cad3-462d-9b82-a0a66e7875df" target="_blank">Privary Policy</a> </li>
+          </ul>
+        </div>
+        <p>&#169; 2022 KeyboardBar</p>
+      </div>
+      </footer>
+  </body>
+</html>
