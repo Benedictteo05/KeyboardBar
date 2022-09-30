@@ -140,7 +140,7 @@ body{
 
 .hero{
   display: flex;
-  background-image: url(images/hero1.jpg);
+  background-image: url(images/hero2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -377,6 +377,6 @@ footer p{
   margin-left: 25px
 }
 
-#logoutBtn{
+/* #logoutBtn{
 
-}
+} */
