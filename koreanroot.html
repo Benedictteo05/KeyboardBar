@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="icon" href="images/logo2.png">
+    <title>KOREAN ROOT DYE SUB PBT</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body onload="checkBadge()">
+    <header class="topnav">
+      <div class="logo">
+        <a href="homepage.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+        <nav>
+          <ul class="left">
+            <li><a href="keyboard.html">Keyboards</a></li>
+            <li><a href="switches.html">Switches</a></li>
+            <li><a href="keycaps.html">Keycaps</a></li>
+          </ul>
+          <ul class='right'>
+            <li><a href="cart.html" id="cart">Cart</a><span class='badge'></span> </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+      <div class="productgallery">
+        <div class="bigProduct">
+          <img id='mainProduct' src="images/koreanroot.png" alt="kroot">
+        </div>
+        <ul class='multipleProducts'>
+          <li> <img src="images/koreanroot.png" alt="kroot" onclick="showProduct(this)"> </li>
+          <li><img src="images/koreanroot2.png" alt="koreanroot2" onclick="showProduct(this)"> </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h4>KPREPUBLIC 139 KOREAN ROOT BLACK FONT CHERRY PROFILE DYE SUB KEYCAP PBT</h4>
+        <p id='price'>$16</p>
+        <p id='features'>Features</p>
+        <ul>
+          <li>PBT material</li>
+          <li>Cherry Profile</li>
+          <li>Dye Sub Legends</li>
+        </ul>
+        <button id='button' type="button" name="button" onclick="addCart()">Add to cart</button>
+      </div>
+      </div>
+      <br>
+      <div class="description2">
+        <h3>About</h3>
+        <p>The Korean Root also features Dye sublegends for linguistic versatility and extra worldly flair. Shaped in classic Cherry profile, the Astronauts set is made from PBT material with tripleshot legends for unparalleled durability. Equip it on your keyboard, and you may just have a look to last into the next century.</p>
+      </div>
+      <div class="considered">
+        <p>Others also considered</p>
+        <a href="keycaps.html">Browse all keycaps &#8594;</a>
+        <div class="consider">
+        <ul class='card'>
+          <ul>
+            <li><a href="wobpbt.html"><img src="images/wobpbt.png" alt="wobpbt"> </a> </li>
+            <li>WOB PBT DOUBLESHOT</li>
+          </ul>
+          <ul>
+            <li><a href="domikeysa.html"><img src="images/domikeysa.png" alt="domikeysa"> </a> </li>
+            <li>DOMIKEY ABS DOUBLESHOT</li>
+          </ul>
+          <ul>
+            <li><a href="beigegrey.html"><img src="images/beigegreyxda.png" alt="beigegrey"> </a> </li>
+            <li>BEIGE GREY DYE SUB</li>
+          </ul>
+        </ul>
+      </div>
+      </div>
+      <footer>
+      <div class="footer">
+        <div class="socials">
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebooklogo.png" alt="facebook"> </a> </li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagramlogo.png" alt="instagram"> </a> </li>
+            <li><a href="https://www.twitter.com/" target="_blank"><img src="images/twitterlogo.png" alt="twitter"> </a> </li>
+          </ul>
+        </div>
+        <div class="summary">
+          <ul>
+            <li><a href="keyboard.html">Keyboards</a> </li>
+            <li><a href="switches.html">Switches</a> </li>
+            <li><a href="keycaps.html">Keycaps</a> </li>
+          </ul>
+          <ul>
+            <li><a href="https://www.termsfeed.com/live/59ad481b-1194-435b-a391-e6f91ed8f6ed" target="_blank">Terms of use</a></li>
+            <li><a href="https://www.freeprivacypolicy.com/live/8e5b8faf-cad3-462d-9b82-a0a66e7875df" target="_blank">Privary Policy</a> </li>
+          </ul>
+        </div>
+        <p>&#169; 2022 KeyboardBar</p>
+      </div>
+      </footer>
+  </body>
+</html>

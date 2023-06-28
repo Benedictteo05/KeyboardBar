@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="icon" href="images/logo2.png">
+    <title>NOVELKEYS X KAILH CREAM</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body onload="checkBadge()">
+    <header class="topnav">
+      <div class="logo">
+        <a href="homepage.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+        <nav>
+          <ul class="left">
+            <li><a href="keyboard.html">Keyboards</a></li>
+            <li><a href="switches.html">Switches</a></li>
+            <li><a href="keycaps.html">Keycaps</a></li>
+          </ul>
+          <ul class='right'>
+            <li><a href="cart.html" id="cart">Cart</a><span class='badge'></span> </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+      <div class="productgallery">
+        <div class="bigProduct">
+          <img id='mainProduct' src="images/novelcream.png" alt="novelcream">
+        </div>
+        <ul class='multipleProducts'>
+          <li> <img src="images/novelcream.png" alt="novelcream" onclick="showProduct(this)"> </li>
+          <li><img src="images/novelcream2.png" alt="novelcream2" onclick="showProduct(this)"> </li>
+          <li> <img src="images/novelcream3.png" alt="novelcream3" onclick="showProduct(this)"> </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h4>NOVELKEYS X KAILH CREAM LINEAR SWITCHES</h4>
+        <p><span id='price'>$0.56</span>/Switch</p>
+        <p id='features'>Features</p>
+        <ul>
+          <li>5-Pin Switch</li>
+          <li>Linear</li>
+          <li>Pom Stems</li>
+          <li>Progressive Springs</li>
+        </ul>
+        <button id='button' type="button" name="button" onclick="addCart()">Add to cart</button>
+      </div>
+      </div>
+      <br>
+      <div class="description2">
+        <h3>About</h3>
+        <p> With 4 millimeters of total travel and an operating force of 62 gf, it’s a bit on the bulkier side—but its self-lubricating stems make each keystroke a frictionless experience.  </p>
+      </div>
+      <div class="considered">
+        <p>Others also considered</p>
+        <a href="switches.html">Browse all switches &#8594;</a>
+        <div class="consider">
+        <ul class='card'>
+          <ul>
+            <li><a href="gateronyellow.html"><img src="images/gateronyellow.png" alt="gateronyellow"> </a> </li>
+            <li>TECSEE PURPLE PANDAS</li>
+          </ul>
+          <ul>
+            <li><a href="tecsee.html"><img src="images/tecsee.png" alt="tecsee"> </a> </li>
+            <li>TECSEE PURPLE PANDAS</li>
+          </ul>
+          <ul>
+            <li><a href="ttcblue.html"><img src="images/ttcblue.png" alt="ttcblue"> </a> </li>
+            <li>TTC BLUE CLICKY</li>
+          </ul>
+        </ul>
+      </div>
+      </div>
+      <footer>
+      <div class="footer">
+        <div class="socials">
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebooklogo.png" alt="facebook"> </a> </li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagramlogo.png" alt="instagram"> </a> </li>
+            <li><a href="https://www.twitter.com/" target="_blank"><img src="images/twitterlogo.png" alt="twitter"> </a> </li>
+          </ul>
+        </div>
+        <div class="summary">
+          <ul>
+            <li><a href="keyboard.html">Keyboards</a> </li>
+            <li><a href="switches.html">Switches</a> </li>
+            <li><a href="keycaps.html">Keycaps</a> </li>
+          </ul>
+          <ul>
+            <li><a href="https://www.termsfeed.com/live/59ad481b-1194-435b-a391-e6f91ed8f6ed" target="_blank">Terms of use</a></li>
+            <li><a href="https://www.freeprivacypolicy.com/live/8e5b8faf-cad3-462d-9b82-a0a66e7875df" target="_blank">Privary Policy</a> </li>
+          </ul>
+        </div>
+        <p>&#169; 2022 KeyboardBar</p>
+      </div>
+      </footer>
+  </body>
+</html>

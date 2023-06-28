@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signinAndRegister.css">
+    <link rel="icon" href="images/logo2.png">
+  </head>
+  <body>
+    <div class="logo">
+      <a href="homepage.html"><img src="images/logo.png" alt="Logo"></a>
+    </div>
+    <h1>Good <span id="day"></span> </h1>
+    <div class="description">
+      <p>Log in or create an account by entering your email address.</p>
+    </div>
+    <form class="signin" action="register.html" method="get">
+      <input id="email1" type="email" name="email" placeholder="Email address" required>
+      <br>
+      <input type="submit" name="submit" value="Continue">
+      </form>
+    <p>By continuing, you agree to KeyboardBar's <a href="https://www.termsfeed.com/live/defe89bd-7451-4dd1-ad2f-eaf9dce6a5e4">Conditions of Use</a> and <a href="https://www.termsfeed.com/live/2b399a4b-2e6c-4dad-a623-1177649657f3">Privacy Notice</a>.</p>
+    <script>
+      var date = new Date;
+      if (date.getHours() < 12)
+        document.getElementById("day").innerText = "Morning";
+
+      else if (date.getHours() >= 12 && date.getHours() <= 17)
+        document.getElementById("day").innerText = "Afternoon";
+
+      else if (date.getHours() >= 18 )
+        document.getElementById("day").innerText = "Evening";
+      </script>
+  </body>
+</html>
